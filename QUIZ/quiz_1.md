@@ -15,7 +15,7 @@ theres two prt in 1st creating root and second renderingso when you render you o
 ```jsx
 console.log(<h1>Hello world!</h1>)
 
-- MAYBE THIS HOLE
+- MAYBE THIS WHOLE
 
 - ACTU ANS => An object! Unlike creating an HTML element in vanilla DOM JS, what
 gets created from the JSX we have in our React code is a plain JS object
