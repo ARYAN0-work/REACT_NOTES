@@ -1,0 +1,25 @@
+html,body{
+    margin: 0;
+}
+
+header{
+    /*you will get the thing how its made*/
+    background: #F55A5A;
+    display: flex;/*flex container banyega=> sub horizontal hoga*/
+    justify-content: center;/*ceterize hoga sub horizontally */
+    align-items: center;/*ceterize hoga sub vertically */
+    color: white;
+    height: 55px;
+}
+
+header>img{
+    width: 24px;
+    margin-right: 7px;
+}
+
+header>h1{
+    /*text size is 0.9 times the root font size*/
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}
