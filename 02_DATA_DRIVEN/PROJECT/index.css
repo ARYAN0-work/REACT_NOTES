@@ -23,3 +23,22 @@ header>h1{
     font-weight: 500;
     font-family: Inter;
 }
+
+article.jounal-entry{
+    display: flex;
+}
+
+.main-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*url we are using they have a diffrent asppect ratio than what our design shows a portrait where it's taller than it is wide and the actual image is wider than it is tall the fix for this is for mw to use the object fit CSS rule but it does mean that i need a container for it so  */
+
+.main-image-container{
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+}
