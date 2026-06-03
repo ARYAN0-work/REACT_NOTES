@@ -1,5 +1,5 @@
 # gonna use vite(tool)
 
 - first  download nvm
-- npm create @vitelatest
+- npm create vite@latest
 - then choose and npm run dev
