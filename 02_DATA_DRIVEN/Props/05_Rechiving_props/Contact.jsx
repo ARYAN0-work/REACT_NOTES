@@ -61,7 +61,7 @@ export default function Contact(props) {
 
     return (
         <article className="contact-card">
-            <imgage
+            <img
                 //src="./images/mr-whiskerson.png"
                 // now this src is a string but we're going to pull that string off of props object which is in js 
                 src={props.string}// but after this mr.whickerson => img will not show and fluffkins,felix,pumpkin will show up => bcz BUG:when we are talking about we get to choose whatever name we want for these properties so bcz in App.jsx we changed from img to image => just change 
