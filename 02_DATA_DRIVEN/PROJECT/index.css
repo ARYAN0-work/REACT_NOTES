@@ -26,6 +26,7 @@ header>h1{
 
 article.jounal-entry{
     display: flex;
+    margin-bottom: 30px;
 }
 
 article.jounal-entry .main-image{
