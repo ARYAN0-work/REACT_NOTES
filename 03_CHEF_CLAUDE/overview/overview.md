@@ -85,4 +85,4 @@ Dynamic web apps are interactive applications that allow users to read and modif
 
 # CHEF-CLAUDE 
 
-it'S A recipe app where we will input a list of ingredients that you have on hand and at the click of a button off to an AI api to genrate a recipe for your based on your ingridients 
+it'S A recipe app where we will input a list of ingredients that you have on hand and at the click of a button off to an AI api to genrate a recipe for your based on your ingridients and this project is gonna have two options the ai we can use claude through anthrophic api or hugging face 
