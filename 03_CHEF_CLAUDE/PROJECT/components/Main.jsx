@@ -5,15 +5,13 @@ export default function Main() {
     const ingredientListItems = ingredients.map(ingredient =>(
         <li key={ingredient}>{ingredient}</li>
     ))
-    /**
-     * Challenge:
-     * Add an `onSubmit` event listener on the form. Have the function
-     * simply console.log("Form submitted!") for now
-     */
-
+    
     function handleSubmit() {
-        event.preventDefault() // in order to prevent url change in modern react
-        console.log("form submitted!");
+        event.preventDefault() 
+        const formData = new FormData(event.currentTarget)
+        const newIngredient = formData.get("ingredient")
+        console.log(newIngredient);
+        
     }
 
     return (
