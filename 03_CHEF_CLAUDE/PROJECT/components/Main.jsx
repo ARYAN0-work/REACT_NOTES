@@ -6,12 +6,22 @@ export default function Main() {
         <li key={ingredient}>{ingredient}</li>
     ))
     
+
+    /**
+     * Challenge:
+     * Add the new ingredient to the array of ingredients. Also, add a
+     * console.log(ingredients) after adding the ingredient, because
+     * **WARNING**: you aren't going to see the page update!
+     *
+     * Hint: this is a one-liner solution, so don't overthink it 😄
+     */
+
     function handleSubmit() {
         event.preventDefault() 
         const formData = new FormData(event.currentTarget)
         const newIngredient = formData.get("ingredient")
-        console.log(newIngredient);
-        
+        ingredients.push(newIngredient);
+        console.log(ingredients);
     }
 
     return (
