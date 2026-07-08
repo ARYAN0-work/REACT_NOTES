@@ -18,5 +18,6 @@ export default function Joke(props) {
 }
 
 if (console.log("this code is running")&& false) {
-    
+    //console.log("everything was true")
+//    if ( false && console.log("this code is running") 
 }

@@ -1,7 +1,7 @@
 import React from "react" 
 
 export default function Joke(props) {
-    const {isShown,setIsShown} = React.useState(false)
+    const [isShown,setIsShown] = React.useState(false)
 
     function toggleShown() {
         setIsShown(prevShown=>!prevShown)
@@ -17,7 +17,7 @@ export default function Joke(props) {
         <div>
             {props.setup && <h3>{props.setup}</h3>}
             <p>{props.punchline}</p>
-            <button onCanPlay={toggleShown}>Show button</button>
+            <button onClick={toggleShown}>Show button</button>
             <hr />
         </div>
     )
