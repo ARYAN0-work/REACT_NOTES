@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio>// nothing will happen now bcz you dont have any controls 
+        <source src="hello.mp3">// also this redirect
+    </audio>
+
+    <audio controls>// this will happen
+        <source src="hello.mp3">
+    </audio>
+
+    <audio controls autoplay >// nowit will autoplay
+        <source src="hello.mp3">
+    </audio>
+
+    <audio controls autoplay >// as you will open it it will will be already muted you have to unmute 
+        <source src="hello.mp3">
+    </audio>
+
+    <audio controls autoplay loop>//now it will loop
+        <source src="hello.mp3">
+    </audio>
+
+    // now what if i ahve diffrent type of files
+    <audio controls autoplay loop>//now it will loop
+        <source src="hello.mp3" type="audio/mp3">
+         <source src="hello.wav"type="audio/wave>
+    </audio> 
+
+</body>
+</html>

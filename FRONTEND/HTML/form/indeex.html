@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action=""></form>// action attribute = to what location we want ourm form to form submmision is done with backend language in short it just sends data to this file
+
+
+    <form action="index.php" method="POST"></form>// method attribute specifies if this is a get request or a post req ... POST used for confidential info like password or username and get is usually for  insensitive data
+
+    // now lets create a text box 
+
+    <form action="index.php" method="POST">
+
+        <input type="text">// just a blank box you can right something in it if you want
+
+    </form>
+    
+    
+    <form action="index.php" method="POST">
+
+        <label for="usernamw:">username:</label>// for attribute is for visullay impaired
+        <input type="text">// now just before the box we have username:
+
+    </form>
+
+    <form action="index.php" method="POST">
+
+        <label for="usernamw:">username:</label>
+        <input type="text" id="username">// now if you click on username it will redirect to box
+
+        <input type="submit">// submit btn to submit form
+
+    </form>
+
+      <form action="index.php" method="POST">
+
+        <label for="usernamw:">username:</label>
+        <input type="text" id="username" required>// now if you try to click submit a message will pop us saying try to submit its required ...
+
+        <input type="submit">// submit btn to submit form
+
+    </form>
+
+      </form>
+
+      <form action="index.php" method="POST">
+
+        <label for="usernamw:">username:</label>
+        <input type="text" id="username" minlength="6" required>// now if you type less then 6 chr you will have a pop us same we have a maxlength attribute
+
+        <input type="submit">// submit btn to submit form
+        <input type="reset">// now if you try to reset your password will be reset
+
+    </form>
+
+    
+      </form>
+
+      <form action="index.php" method="POST">
+
+        <label for="usernamw:">username:</label>
+        <input type="text" id="username" minlength="6" required placeholder="spongebob">// now befire clicking on the block it will show spongebob it specifywhat kind of info needs to be filled in 
+
+        <input type="submit">
+        <input type="reset"> 
+
+    </form>
+
+     <form action="index.php" method="POST">
+
+        <label for="password">password:</label>
+        <input type="password" id="password" minlength="6" required placeholder="spongebob">// now as you type somethig it will show ....
+
+        <input type="submit">
+        <input type="reset"> 
+
+    </form>
+
+
+</body>
+</html> 
